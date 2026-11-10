@@ -1,0 +1,36 @@
+
+# Visual Studio
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET
+artifacts/
+
+# Node / Angular
+node_modules/
+dist/
+.angular/
+coverage/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.*.Local.json
+
+# Resume and personal documents
+/resumes/
+/private-data/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
